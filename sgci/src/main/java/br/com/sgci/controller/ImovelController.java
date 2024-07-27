@@ -11,6 +11,7 @@ public class ImovelController {
 	
 	@GetMapping
 	public ResponseEntity<String> findAll() {
+
 		return ResponseEntity.ok("Olá mundo!");
 	}
 
